@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classy</title>
+    <link rel="stylesheet" href="css/capture.css">
+    <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+    <script src="https://developers.kakao.com/sdk/js/kakao.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="js/face-api.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/capture.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <a href="/">
+            <h1>Classy</h1>
+        </a>
+    </div>
+
+    <div class="navbar">
+        <a href="/">홈</a>
+        <a href="/classroom">교실 입장</a>
+        <button id="login" onclick="loginWithKakao()">로그인</button>
+        <button id="logout" onclick="logoutWithKakao()">로그아웃</button>
+    </div>
+
+    <div id="form" >
+        <form method="post" id="formtag" action='/uploads/' encType='multipart/form-data'>
+            <input type="file" name="img_file" id='file' multiple/>
+            <input type="submit" name="submit" value="제출"/>
+        </form>
+        <br/>
+        <br/>
+        <div>
+            자신의 이미지를 위의 파일명으로 제출해주세요.
+        </div>
+    </div>
+
+    
+
+</body>
+
+</html>

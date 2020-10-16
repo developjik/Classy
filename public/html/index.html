@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Classy</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.min.js"></script>
+    <script src="https://developers.kakao.com/sdk/js/kakao.min.js"></script>
+    <script src="js/index.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <a href="/">
+            <h1>Classy</h1>
+        </a>
+    </div>
+
+    <div class="navbar">
+        <a href="/">홈</a>
+        <a href="/classroom">교실 입장</a>
+        <button id="login" onclick="loginWithKakao()">로그인</button>
+        <button id="logout" onclick="logoutWithKakao()">로그아웃</button>
+    </div>
+
+    <div class="main">메인 페이지</div>
+</body>
+
+</html>
