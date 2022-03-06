@@ -23,8 +23,8 @@
   - Web RTC를 활용한 교사에게 모든 학생 화면 및 캠 전송
   - Web RTC를 활용한 학생에게 교사의 화면 전송
   - Web RTC를 활용한 선생 화면 녹화 후 AWS S3에 저장
-  - A.I 를 활용한 비정상적 행위 감지 후 Web RTC로 교사에게 메세지 전달
-  - WebRTC는 OpenVidu 플랫폼 활용, 지금은 AWS 서버 비용 문제로 서버 운영 X ⇒ 오픈소스 Web RTC 형태로 유지 중
+  - A.I 를 활용한 비정상적 행위 감지 후 Web RTC로 교사에게 메세지 전달 및 학생에게는 sound로 경고
+  - WebRTC는 OpenVidu 플랫폼 활용, 지금은 AWS 서버 비용 문제로 서버 운영 X => 오픈소스 Web RTC 형태로 유지 중
 
 - 교사 설계
   ![teacher](https://user-images.githubusercontent.com/67889389/156940844-54e40a04-b9b5-4ea6-a3be-47de233ecc95.png)
@@ -93,8 +93,6 @@
         └── 최인제.png
 ```
 
-<br/>
-
 ## 4. 역할 👋🏻
 
 | 이름                                    | 담당역할                                                                           |
@@ -103,8 +101,6 @@
 | 이유찬                                  | A.I 모델 구현 및 적용, WebRTC 구현                                                 |
 | 김성원                                  | A.I 모델 구현 및 적용, Sound 적용                                                  |
 | 최인제                                  | A.I 모델 구현 및 적용, uploads 관리 및 구현                                        |
-
-<br/>
 
 ## 5. 프로젝트 스크린샷 ✍🏻
 
