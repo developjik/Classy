@@ -8,7 +8,7 @@
 6. [프로젝트 설치 및 실행 ✨](#6-프로젝트-설치-및-실행-)
 7. [소프트웨어공모전 결과 ✨](#7-소프트웨어공모전-결과)
 
-[🌍 배포 링크](https://classroom-jik.herokuapp.com/)
+[🌍 배포 링크](https://developjik-classy.herokuapp.com/)
 
 ## 1. 프로젝트 소개 🚀
 
